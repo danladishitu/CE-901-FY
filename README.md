@@ -22,7 +22,7 @@ This work will investigate the use of clustering techniques to identify possible
 - Model can help the football business become more profitable and attract more investment through advertisements, sponsorships and brand ambassadorship.
 
 
-The structure of the model is described:
+### The structure of the model is described:
 
 The first phase is to effectively build a model capable of grouping players based on their similarity in traits. To do this, I have implemented K-means, K-means++ and DBSCAN algorithms to group players based on their individual abilities, as well as noise removal from the dataset. The model can potentially identify patterns those certain players share in ways that would not normally have been considered by the team managers during their manual evaluation. The code to the first phase of this work can be found in **Cluster_Players.ipynb**.
 
