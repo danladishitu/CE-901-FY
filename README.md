@@ -31,7 +31,7 @@ The second phase entails building a classification model that will be capable of
 **Incase you run into this error message "Sorry, something went wrong. Reload?" while attempting to launch the jupyter notebook from GitHub:**
 
 - Please visit "https://nbviewer.jupyter.org/"
-- Copy the Url link of my jupyter notebook like this "https://github.com/danladishitu/My_Portfolio/blob/main/TravelInsurance/TravelInsuranceClassification.ipynb" and paste it into the nbviewer search box. Please feel free to download the notebook and use it however you see necessary.
+- Copy the Url link of my jupyter notebook like this "https://github.com/danladishitu/CE-901-FY/blob/main/Cluster_Players.ipynb" and paste it into the nbviewer search box. Please feel free to download the notebook and use it however you see necessary.
 
 ### Dataset
 FIFA is a football simulation video game in the FIFA series released by Electronic Arts. The football dataset was obtained from Kaggle. The dataset contains 18,207 players, each with a distinct set of attributes. The link to the dataset is provided below. https://www.kaggle.com/karangadiya/fifa19
