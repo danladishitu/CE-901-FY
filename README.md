@@ -26,7 +26,12 @@ The structure of the model is described:
 
 The first phase is to effectively build a model capable of grouping players based on their similarity in traits. To do this, I have implemented K-means, K-means++ and DBSCAN algorithms to group players based on their individual abilities, as well as noise removal from the dataset. The model can potentially identify patterns those certain players share in ways that would not normally have been considered by the team managers during their manual evaluation.
 
-The second phase entails building a classification model that will be capable of re-evaluating the player's position and transfer value based on the cluster labels provided by the clustering algorithm in the first phase. These classifiers will be able to predict what group a fresh set of players will belong to. Support Vector Machine and Random Forest are two ML algorithms that I used for this. This would also help managers diagnose lack of skill diversity, identify under-valued and over-priced players, and potentially influence their transfer decisions. The code to the second phase of this work can be found in **Re-evaluation_Classification.ipynb**
+The second phase entails building a classification model that will be capable of re-evaluating the player's position and transfer value based on the cluster labels provided by the clustering algorithm in the first phase. These classifiers will be able to predict what group a fresh set of players will belong to. Support Vector Machine and Random Forest are two ML algorithms that I used for this. This would also help managers diagnose lack of skill diversity, identify under-valued and over-priced players, and potentially influence their transfer decisions. The code to the second phase of this work can be found in **Re-evaluation_Classification.ipynb**.
+
+**Incase you run into this error message "Sorry, something went wrong. Reload?" while attempting to launch the jupyter notebook from GitHub:**
+
+- Please visit "https://nbviewer.jupyter.org/"
+- Copy the Url link of my jupyter notebook like this "https://github.com/danladishitu/My_Portfolio/blob/main/TravelInsurance/TravelInsuranceClassification.ipynb" and paste it into the nbviewer search box. Please feel free to download the notebook and use it however you see necessary.
 
 ### Dataset
 FIFA is a football simulation video game in the FIFA series released by Electronic Arts. The football dataset was obtained from Kaggle. The dataset contains 18,207 players, each with a distinct set of attributes. The link to the dataset is provided below. https://www.kaggle.com/karangadiya/fifa19
