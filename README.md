@@ -32,7 +32,7 @@ The second phase entails building a classification model that will be capable of
 FIFA is a football simulation video game in the FIFA series released by Electronic Arts. The football dataset was obtained from Kaggle. The dataset contains 18,207 players, each with a distinct set of attributes. The link to the dataset is provided below. https://www.kaggle.com/karangadiya/fifa19
 
 ### Coding and Implementation
-I have used Python and its diverse library to build the machine learning pipeline to tackle this classification problem. To improve readability, the code was written in a Jupyter notebook. Python executable code was also provided.
+I have used Python and its diverse library to build the machine learning pipeline to tackle this classification problem. To improve readability, the code was written in a Jupyter notebook. The python executable code (.py) was also provided.
 Packages that will be required to run the code:
 
 - Pandas
